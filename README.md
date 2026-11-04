@@ -1,226 +1,105 @@
-<div align="center">
-  
-# 👨‍💻 Mohammad Petiwala
+<p align="center">
+  <img src="assets/header.svg" alt="Mohammad Petiwala — AI/ML Engineer & Full-Stack Developer. Making complex AI feel simple." width="100%">
+</p>
 
-### AI/ML Engineer | RAG Systems Architect | Full-Stack Developer
+<p align="center">
+  <a href="https://www.linkedin.com/in/mohammad-petiwala-79b997271/">LinkedIn</a> &nbsp; / &nbsp;
+  <a href="mailto:mohdpeti0405@gmail.com">Email me</a> &nbsp; / &nbsp;
+  <a href="https://ai-study-mentor-two.vercel.app">Try my AI study mentor</a> &nbsp; / &nbsp;
+  <a href="https://instagram.com/moh0405">Instagram</a>
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&random=false&width=600&lines=Building+Intelligent+AI+Systems;RAG+%7C+LLMs+%7C+Full-Stack+Development;Mental+Math+International+Rank+3+🧠)](https://git.io/typing-svg)
+<br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-petiwala-79b997271/)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/moh0405)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](#)
+## A little about me
 
-![Profile Views](https://komarev.com/ghpvc/?username=moh0405&color=36BCF7&style=for-the-badge&label=PROFILE+VIEWS)
+I'm **Mohammad**, an AI/ML engineer and full-stack developer building tools that make complex information easier to understand. My work connects retrieval, language models, and thoughtful interfaces, from a tutor that cites your textbooks to a copilot for clinical trial data.
 
-</div>
+I care about the whole system: **how it retrieves, how it reasons, how it's evaluated, and how it feels to use.**
+
+- **Building:** RAG systems, tool-using agents, and AI applications with Python and TypeScript.
+- **Exploring:** hybrid search, retrieval evaluation, and efficient LLM inference.
+- **Beyond code:** International Rank **3** in Mental Math.
+
+<br>
+
+## The work, in numbers
+
+<a href="https://github.com/moh0405?tab=overview">
+  <img src="assets/metrics.svg" alt="GitHub activity: commit contributions, total contributions, pull requests, reviews, active days, and longest streak over the last 12 months." width="100%">
+</a>
+
+<a href="https://github.com/moh0405?tab=overview">
+  <img src="assets/activity.svg" alt="Daily GitHub contribution heatmap over the last 12 months." width="100%">
+</a>
+
+<sub>Updated daily from GitHub. The reporting dates appear on each card. Contributions include more than commits; counts follow [GitHub's contribution rules](https://docs.github.com/en/account-and-profile/concepts/contributions-visible-on-your-profile). Only activity visible to the workflow is included.</sub>
+
+<br>
+<br>
+
+## Selected projects
+
+### 01 / Lectern · AI Study Mentor
+
+**A study companion that answers from your sources and checks its citations.**
+
+Hybrid retrieval combines semantic search and BM25 over textbooks, lectures, and repositories. A streaming interface brings together cited answers, flashcards, a Socratic tutor, and tool-using agents.
+
+`Python` `FastAPI` `Next.js` `TypeScript` `LangGraph` `MCP` `AWS`
+
+[Explore the code ↗](https://github.com/moh0405/Lectern) &nbsp; · &nbsp; [Try the demo ↗](https://ai-study-mentor-two.vercel.app)
 
 ---
 
-## 🚀 About Me
+### 02 / Paritty
 
-```python
-class AIEngineer:
-    def __init__(self):
-        self.name = "Mohammad Petiwala"
-        self.role = "AI/ML Engineer & Full-Stack Developer"
-        self.current_focus = "RAG Systems & LLM Applications"
-        self.achievement = "International Rank 3 in Mental Math 🧮"
-        
-    def current_projects(self):
-        return {
-            "primary": "RAG AI Study Mentor",
-            "description": "PDF-powered AI that simplifies CS, AI & ML concepts",
-            "tech_stack": ["LangChain", "FastAPI", "Vector DBs", "LLMs"]
-        }
-    
-    def get_expertise(self):
-        return [
-            "Retrieval-Augmented Generation (RAG)",
-            "LLM Application Development",
-            "Full-Stack Development",
-            "IoT & Real-Time Systems",
-            "Data Science & ML"
-        ]
-```
+**A continuous clean-to-lock copilot for clinical trials.**
 
-<details>
-<summary>📝 More About My Journey</summary>
+Combines deterministic data checks, reconciliation, and lock-date forecasting with AI-assisted drafts. Evidence verification and human approval sit at the center of the workflow.
+
+`Clinical data` `Gemini` `Tiger Data` `AI agents`
+
+[Explore the code ↗](https://github.com/moh0405/paritty)
+
+---
+
+### 03 / MedExplain AI
+
+**Medical reports, explained in plain language.**
+
+Turns clinical text into structured summaries and key findings, with visible parsing warnings and a fallback when model inference is unavailable.
+
+`Python` `FastAPI` `React` `TypeScript` `LLMs`
+
+[Explore the code ↗](https://github.com/moh0405/MedExplain_AI)
+
 <br>
 
-- 🎯 **Mission**: Making complex AI concepts accessible to everyone through intuitive applications
-- 🔬 **Research Interests**: Advanced RAG architectures, prompt engineering, production AI systems
-- 🌱 **Currently Mastering**: LangChain internals, vector databases, vLLM/Ollama optimization
-- 💡 **Philosophy**: Complex problems deserve simple, elegant solutions
-- 🎓 **Passion**: Turning cutting-edge AI research into practical, user-friendly tools
+## My toolkit
+
+| Area | Technologies |
+| :--- | :--- |
+| **AI & retrieval** | PyTorch · scikit-learn · LangChain · LangGraph · MCP · vector search |
+| **Backend & data** | Python · FastAPI · NumPy · Pandas · SQL · MongoDB |
+| **Frontend** | TypeScript · React · Next.js · Tailwind CSS |
+| **Cloud & delivery** | AWS · Docker · Terraform · GitHub Actions · Git |
+
+<details>
+<summary>More tools I've worked with</summary>
+
+TensorFlow · Streamlit · Node.js · Express · Django · Angular · MySQL · DynamoDB · Kubernetes · C · C++ · Java · PHP · Figma · Blender · Unity · Raspberry Pi · Arduino
 
 </details>
 
----
+<br>
 
-## 💼 What I'm Working On
+## Let's build something useful
 
-<table>
-<tr>
-<td width="50%">
+Interested in RAG, AI-powered learning, or a full-stack AI project? I'd love to compare ideas and collaborate.
 
-### 🤖 Current Project
-**RAG AI Study Mentor**
-- 📚 PDF-based learning companion
-- 🧠 Contextual Q&A system
-- 📊 Smart summarization
-- 🎯 CS/AI/ML concept simplification
+**[mohdpeti0405@gmail.com](mailto:mohdpeti0405@gmail.com)** &nbsp; · &nbsp; [Connect on LinkedIn ↗](https://www.linkedin.com/in/mohammad-petiwala-79b997271/)
 
-</td>
-<td width="50%">
+<br>
 
-### 🔍 Looking to Collaborate
-- AI/ML research projects
-- RAG system optimization
-- LLM applications
-- Open-source learning tools
-- Intelligent automation products
-
-</td>
-</tr>
-</table>
-
----
-
-## 🛠️ Tech Arsenal
-
-### 🧠 AI/ML & Data Science
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=numpy&logoColor=white)
-
-### 🚀 LLM & RAG Stack
-![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-
-### 💻 Full-Stack Development
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-
-### 🗄️ Databases & Cloud
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazon-dynamodb&logoColor=white)
-![Apache Hadoop](https://img.shields.io/badge/Apache_Hadoop-66CCFF?style=for-the-badge&logo=apache-hadoop&logoColor=black)
-![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
-
-### ⚙️ DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-### 🎨 Design & Other
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Blender](https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-
-### 💬 Programming Languages
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-  
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=moh0405&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&ring_color=36BCF7&text_color=ffffff&icon_color=36BCF7&title_color=36BCF7&bg_color=0d1117" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=moh0405&theme=radical&hide_border=true&background=0d1117&ring=36BCF7&fire=36BCF7&currStreakLabel=36BCF7" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=moh0405&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=36BCF7&text_color=ffffff&icon_color=36BCF7&langs_count=8" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=moh0405&bg_color=0d1117&color=36BCF7&line=36BCF7&point=ffffff&area=true&hide_border=true" />
-
-</div>
-
-### 🏆 GitHub Achievements
-
-<div align="center">
-  
-![Trophies](https://github-profile-trophy.vercel.app/?username=moh0405&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7)
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-  
-[![Mohammad's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=moh0405&theme=react-dark&hide_border=true&area=true)](https://github.com/moh0405)
-
-</div>
-
----
-
-## 💡 Random Dev Wisdom
-
-<div align="center">
-
-![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-</div>
-
----
-
-## 🤝 Let's Connect & Collaborate!
-
-<div align="center">
-
-**I'm always excited to discuss:**
-- 🤖 RAG systems and LLM applications
-- 📚 AI-powered learning tools
-- 🔧 Full-stack AI product development
-- 💡 Innovative automation ideas
-- 🌐 Open-source collaboration
-
-### 📫 Reach Out
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-petiwala-79b997271/)
-[![Email](https://img.shields.io/badge/Email-Drop_a_Message-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/moh0405)
-
-</div>
-
----
-
-<div align="center">
-  
-### 💭 "Turning complex AI concepts into simple, elegant solutions — one line of code at a time."
-
-![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
-
-**Thanks for stopping by! Let's build something amazing together! 🚀**
-
-![Visitor Count](https://visitcount.itsvg.in/api?id=moh0405&label=Profile%20Views&color=6&icon=5&pretty=true)
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&fontSize=0" width="100%"/>
-</div>
+<p align="center"><sub>Good AI should make the complicated feel clear.</sub></p>

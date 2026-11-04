@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Mohammad Petiwala — AI/ML Engineer &amp; Full-Stack Developer</title>
+  <desc id="desc">Making complex AI feel simple. A navy banner with mint typography and a geometric network illustration.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101b2b"/><stop offset="1" stop-color="#0a111d"/></linearGradient>
+    <linearGradient id="line" x2="1" y2="1"><stop stop-color="#94f5cb"/><stop offset="1" stop-color="#a5a2ff"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#a0b7c8" stroke-opacity=".06"/></pattern>
+    <clipPath id="clip"><rect width="1200" height="390" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="390" fill="url(#bg)"/>
+    <rect x="760" width="440" height="390" fill="url(#grid)"/>
+    <circle cx="1040" cy="190" r="220" fill="#94f5cb" opacity=".025"/>
+    <circle cx="1040" cy="190" r="145" fill="none" stroke="#94f5cb" stroke-opacity=".1"/>
+    <circle cx="1040" cy="190" r="105" fill="none" stroke="#94f5cb" stroke-opacity=".1"/>
+    <g fill="none" stroke="url(#line)" stroke-width="1.5" opacity=".7">
+      <path d="M864 104L987 80L1108 132L1142 268L1000 312L883 245Z"/>
+      <path d="M864 104L1000 191L1108 132M987 80L1000 191L1142 268M883 245L1000 191L1000 312M883 245L1108 132"/>
+    </g>
+    <g fill="#94f5cb"><circle cx="864" cy="104" r="5"/><circle cx="987" cy="80" r="5"/><circle cx="1108" cy="132" r="5"/><circle cx="1142" cy="268" r="5"/><circle cx="1000" cy="312" r="5"/><circle cx="883" cy="245" r="5"/></g>
+    <rect x="963" y="154" width="74" height="74" rx="20" fill="#132b30" stroke="#94f5cb"/>
+    <text x="1000" y="200" text-anchor="middle" fill="#94f5cb" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700">MP</text>
+    <g font-family="Arial,Helvetica,sans-serif">
+      <text x="56" y="63" fill="#94f5cb" font-size="15" font-weight="700" letter-spacing="3">MOHAMMAD PETIWALA / @MOH0405</text>
+      <text x="52" y="148" fill="#f2f4f0" font-size="60" font-weight="700" letter-spacing="-2">Making complex AI</text>
+      <text x="52" y="218" fill="#94f5cb" font-size="60" font-weight="700" letter-spacing="-2">feel simple.</text>
+      <text x="56" y="274" fill="#a6b4c5" font-size="21">AI/ML Engineer &amp; Full-Stack Developer</text>
+      <path d="M56 311H744" stroke="#253347"/>
+      <text x="56" y="347" fill="#d3dce6" font-size="16" letter-spacing="1">RETRIEVAL</text>
+      <circle cx="177" cy="341" r="2" fill="#94f5cb"/>
+      <text x="198" y="347" fill="#d3dce6" font-size="16" letter-spacing="1">AI AGENTS</text>
+      <circle cx="318" cy="341" r="2" fill="#94f5cb"/>
+      <text x="339" y="347" fill="#d3dce6" font-size="16" letter-spacing="1">FULL-STACK PRODUCTS</text>
+    </g>
+  </g>
+</svg>
