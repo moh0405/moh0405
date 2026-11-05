@@ -13,15 +13,15 @@ from pathlib import Path
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
-BG = '#0d1624'
-CARD = '#132033'
-TEXT = '#f2f4f0'
-MUTED = '#a6b4c5'
-MINT = '#94f5cb'
-PURPLE = '#b8b2ff'
-LEVELS = {'NONE': '#1c2c40', 'FIRST_QUARTILE': '#245948',
-          'SECOND_QUARTILE': '#398b68', 'THIRD_QUARTILE': '#61c597',
-          'FOURTH_QUARTILE': MINT}
+BG = '#15111f'
+CARD = '#211a30'
+TEXT = '#f5f1fc'
+MUTED = '#b2a6c8'
+ACCENT = '#b8a1ff'
+SECONDARY = '#dfd0ff'
+LEVELS = {'NONE': '#292137', 'FIRST_QUARTILE': '#493766',
+          'SECOND_QUARTILE': '#72569e', 'THIRD_QUARTILE': '#9477ce',
+          'FOURTH_QUARTILE': ACCENT}
 
 QUERY = '''query($login: String!, $from: DateTime!, $to: DateTime!) {
   user(login: $login) {
@@ -68,7 +68,7 @@ def svg(height, title, description, elements):
             f'<title id="title">{html.escape(title)}</title>'
             f'<desc id="desc">{html.escape(description)}</desc>'
             f'<rect x=".5" y=".5" width="1199" height="{height-1}" rx="24" '
-            f'fill="{BG}" stroke="#253347"/>'
+            f'fill="{BG}" stroke="#383047"/>'
             '<g font-family="Arial,Helvetica,sans-serif">' + ''.join(elements) + '</g></svg>\n')
 
 
@@ -96,14 +96,14 @@ def render(collection, now):
         raise ValueError('GitHub returned an empty contribution calendar.')
     period = f"{days[0]['date']} — {days[-1]['date']}"
     metrics = [
-        ('Commit contributions', collection['totalCommitContributions'], MINT),
-        ('Total contributions', collection['contributionCalendar']['totalContributions'], MINT),
-        ('Pull requests opened', collection['totalPullRequestContributions'], MINT),
-        ('Code reviews', collection['totalPullRequestReviewContributions'], PURPLE),
-        ('Days with activity', active, PURPLE),
-        ('Longest streak · days', longest, PURPLE),
+        ('Commit contributions', collection['totalCommitContributions'], ACCENT),
+        ('Total contributions', collection['contributionCalendar']['totalContributions'], ACCENT),
+        ('Pull requests opened', collection['totalPullRequestContributions'], ACCENT),
+        ('Code reviews', collection['totalPullRequestReviewContributions'], SECONDARY),
+        ('Days with activity', active, SECONDARY),
+        ('Longest streak · days', longest, SECONDARY),
     ]
-    parts = [text(40, 47, 'BUILDING, ONE CONTRIBUTION AT A TIME', 18, MINT, 700,
+    parts = [text(40, 47, 'BUILDING, ONE CONTRIBUTION AT A TIME', 18, ACCENT, 700,
                   'letter-spacing="2"'), text(40, 82, period + ' · last 12 months', 20)]
     for index, (label, value, accent) in enumerate(metrics):
         x = 40 + (index % 3) * 380
@@ -117,7 +117,7 @@ def render(collection, now):
     description = period + '. ' + '; '.join(f'{label}: {value:,}' for label, value, _ in metrics)
     metrics_svg = svg(452, 'GitHub activity — ' + period, description, parts)
 
-    parts = [text(40, 48, 'A YEAR OF SHOWING UP', 18, MINT, 700, 'letter-spacing="2"'),
+    parts = [text(40, 48, 'A YEAR OF SHOWING UP', 18, ACCENT, 700, 'letter-spacing="2"'),
              text(40, 82, 'Daily contributions · ' + period, 20)]
     first = dt.date.fromisoformat(days[0]['date'])
     sunday = first - dt.timedelta(days=(first.weekday()+1) % 7)

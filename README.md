@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Mohammad Petiwala — AI/ML Engineer & Full-Stack Developer. Making complex AI feel simple." width="100%">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/header-mobile.svg">
+    <img src="assets/header.svg" alt="Mohammad Petiwala — AI/ML Engineer &amp; Full-Stack Developer. Retrieval. Agents. Thoughtful interfaces." width="100%">
+  </picture>
 </p>
 
 <p align="center">
