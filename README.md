@@ -9,7 +9,7 @@
   <a href="https://www.linkedin.com/in/mohammad-petiwala-79b997271/">LinkedIn</a> &nbsp; / &nbsp;
   <a href="mailto:mohdpeti0405@gmail.com">Email me</a> &nbsp; / &nbsp;
   <a href="https://ai-study-mentor-two.vercel.app">Try my AI study mentor</a> &nbsp; / &nbsp;
-  <a href="https://instagram.com/moh0405">Instagram</a>
+  <a href="https://mohammadpetiwala.vercel.app/">Portfolio ↗</a>
 </p>
 
 <br>
